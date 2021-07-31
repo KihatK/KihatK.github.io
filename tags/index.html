@@ -5,7 +5,7 @@ background: '/img/bg-post.jpg'
 ---
 
 {% for tag in site.data.tags %}
-  <span class="tag" data-tag="{{tag}}">
+  <span class="tag" data-tag="{{tag}}" style="margin-right: 5px">
     {{ site.data.format[tag] }}
   </span>
 {% endfor %}

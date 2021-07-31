@@ -3,7 +3,6 @@ span.tag:hover {
 }
 
 span.tag {
-  margin-right: 5px;
   border-radius: 5px;
   padding: 5px;
   font-size: 0.75rem;
