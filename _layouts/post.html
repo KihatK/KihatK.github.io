@@ -21,7 +21,9 @@ layout: default
               <span>태그:</span>
               {% for tag in page.tags %}
                 {% if site.data.tags contains tag %}
-                  <span class="tag">{{ site.data.format[tag] }}</span>
+                  <a href="/tags/?tag={{ tag }}">
+                    <span class="tag">{{ site.data.format[tag] }}</span>
+                  </a>
                 {% endif %}
               {% endfor %}
             {% endif %}
